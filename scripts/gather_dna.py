@@ -62,7 +62,7 @@ for i in range(1,50):
 
     traitlist = []
 
-    # This loops nine times and does some bitshifting magic that I can't say I even fully understand. I solved this bit by tweaking the format until the bitshift returned a few known values I had manually created. AFAIK it's applying a mask of 1111 1111 (i.e. 255) to each byte, shifting 'sideways' 8 characters each time, comparing to the bits it currently sits atop, and gleaning a friendly number from the result. Output for each trait is e.g. 2,17,44
+    # This loops nine times and does some bitshifting magic that I can't say I even fully understand. I solved this bit by tweaking the format until the bitshift returned a few known values I had manually created. AFAIK it's applying a mask of 1111 1111 (i.e. 255) to each byte, shifting 'sideways' 8 characters each time, comparing to the bits it currently sits atop, and gleaning a friendly number from the result. Output for each trait is a number between 0 and 255 e.g. 2,17,44
     for t in range(9):
         bitshift = t*8
 
