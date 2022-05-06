@@ -53,7 +53,7 @@ for i in range (320):
     # Adds the loop count*25 to that base array 
     ar = ar + i*25
     print(ar)
-    # Opensea's parameters for this array are STUPID. E.g. 8&token_ids=69&token_ids=70&token_ids=71 But this handles it
+    # Opensea's (undocumented) parameter format for this array is STUPID. E.g. 8&token_ids=69&token_ids=70&token_ids=71 But this handles it
     b='&token_ids='. join(str(x) for x in ar)
 
     # print(b)
