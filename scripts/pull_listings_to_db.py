@@ -92,10 +92,3 @@ con.close()
 print('\n\n--Done---\n\nRuntime:')
 # Finishes the time logging 
 print(datetime.datetime.now() - begin_time)
-
-
-
-
-
-
-
