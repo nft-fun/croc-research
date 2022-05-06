@@ -9,7 +9,7 @@ import datetime
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 
-# Beings logging
+# Begins logging
 begin_time = datetime.datetime.now()
 
 # Loads environment variables 
