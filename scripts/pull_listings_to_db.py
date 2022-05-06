@@ -7,7 +7,7 @@ import requests
 import psycopg2
 # For handing JSON payloads
 import json
-# For adding a 0.7 second delay to not get slapped by opensea's api throttling
+# For adding a 1 second delay to avoid getting slapped by opensea's api throttling
 import time
 # To log how long this takes
 import datetime
